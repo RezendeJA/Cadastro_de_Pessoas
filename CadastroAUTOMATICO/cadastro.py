@@ -22,6 +22,7 @@ def cadastro():
     navegador.find_element('xpath','//*[@id="phone"]').send_keys(num)
 
 hud= CTk()
+hud.title('Cadastro')
 hud.geometry('300x200')
 entrada_nome= CTkEntry(hud, placeholder_text='Insira seu nome', width=200, height=20)
 entrada_nome.pack(pady=20)
